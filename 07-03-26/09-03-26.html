@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <!-- Full Name -->
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+            </tr>
+
+            <!-- Roll Number -->
+            <tr>
+                <td><label for="roll">Roll Number:</label></td>
+                <td><input type="text" id="roll" name="roll" placeholder="Enter your roll number"></td>
+            </tr>
+
+            <!-- Age -->
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" id="age" name="age" placeholder="Enter your age"></td>
+            </tr>
+
+            <!-- Gender -->
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+
+            <!-- Course -->
+            <tr>
+                <td><label for="course">Course:</label></td>
+                <td>
+                    <select id="course" name="course">
+                        <option value="bsc">B.Sc Computer Science</option>
+                        <option value="bcom">B.Com</option>
+                        <option value="ba">B.A English</option>
+                        <option value="bba">BBA</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Hobbies -->
+            <tr>
+                <td>Hobbies:</td>
+                <td>
+                    <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="sports" name="hobbies" value="Sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="music" name="hobbies" value="Music">
+                    <label for="music">Music</label>
+                </td>
+            </tr>
+
+            <!-- Address -->
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="30"></textarea></td>
+            </tr>
+
+            <!-- Buttons -->
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
